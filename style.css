@@ -1,0 +1,234 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.mainContainer {
+    position: relative;
+
+}
+
+.head {
+
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin-right: 0.2rem;
+    color: white;
+}
+
+.head1 {
+
+    font-size: 64px;
+    font-family: "Heebo", sans-serif;
+    color: slategray;
+}
+
+#name {
+    height: 43px;
+    width: 320px;
+    margin-top: 15px;
+    border: 2px solid rgb(227, 147, 147);
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgb(195, 187, 187);
+}
+
+div i {
+
+    color: skyblue;
+    font-size: 42px;
+    cursor: pointer;
+}
+
+.text {
+
+
+    color: rgb(227, 85, 34);
+    font-size: 40px;
+
+    color: slategrey;
+
+
+    color: white;
+}
+
+.addCard {
+    display: inline-block;
+    text-align: right;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 1.3rem;
+
+    z-index: 2;
+}
+
+i {
+    font-size: 2rem;
+    color: #FD5d5d;
+    cursor: pointer;
+}
+
+.pop {
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 25px 40px 0px 40px;
+    border: 2px solid rgb(227, 147, 147);
+    color: rgb(241, 81, 81);
+    font-family: "Heebo", sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 10px;
+    height: 220px;
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 5;
+
+}
+
+input {
+    border-radius: 15px;
+    width: 70%;
+    max-width: 270px;
+    height: 35px;
+    box-shadow: 5px 5px 10px rgb(142, 53, 53);
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+.button {
+
+    height: 43px;
+    width: 104px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    background: rgb(241, 96, 96);
+    border: none;
+    cursor: pointer;
+    margin: 0.9rem;
+    padding: 0.10rem;
+}
+
+.subHead {
+
+
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.blur {
+    filter: blur(8px);
+}
+
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.flexBox {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.cardbtn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+}
+
+.cardbtn i {
+    padding: 0.5rem;
+}
+
+#title {
+    cursor: pointer;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+}
+
+.box {
+    position: relative;
+    min-height: 280px;
+    width: 220px;
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px 3.5rem;
+    font-weight: lighter;
+    font-family: Roboto, sans-serif;
+    color: #FD5d5d;
+    border: 2px solid #FD5d5d;
+    /* box-shadow: 5px 5px 10px rgb(209, 204, 204); */
+    background-color: white;
+    /* border: none; */
+}
+
+.compBtn {
+    margin: 5px;
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+
+.moveNext {
+    position: fixed;
+    height: 100Vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* border: 5px solid yellow; */
+    visibility: hidden;
+    z-index: 1;
+
+}
+
+.new {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    padding: 10px;
+
+    z-index: 1X;
+}
+
+.new-card {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back {
+    color: white;
+    font-size: 45px;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
